@@ -1,8 +1,8 @@
 class Resin < Formula
   homepage "http://caucho.com"
-  url "http://caucho.com/download/resin-4.0.42.zip"
-  version "4.0.42"
-  sha1 "207a5075b3d099f04706a710d41b78451f88cb4d"
+  url "http://caucho.com/download/resin-4.0.46.zip"
+  version "4.0.46"
+  sha1 "44b511f99ef07b6c98b68dcd8c5794de83ab6a58"
 
   def install
     system "./configure", "--disable-debug",
